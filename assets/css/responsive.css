@@ -1,0 +1,399 @@
+@media screen and (max-width: 1921px) {
+  nav {
+    border-width: 5px;
+  }
+  nav ul li {
+    margin: 20px;
+    font-size: 35px;
+  }
+  hr {
+    margin: 30px auto;
+  }
+  #author_card img {
+    width: 370px;
+  }
+  #author_card #bg-text h1 {
+    font-size: 45px;
+  }
+  #author_card #bg-text h2 {
+    font-size: 35px;
+  }
+  #author_card #bg-text h1, #author_card #bg-text h2 {
+    margin: 30px;
+  }
+  .parthead {
+    font-size: 50px;
+  }
+  .mainpart {
+    margin: 25px 0px;
+  }
+  #skills .skill, #services .skill, #services .service {
+    margin: 20px;
+    width: 40%;
+  }
+  #skills .skill h4, #services .skill h4, #services .service h4 {
+    font-size: 40px;
+    margin: 10px;
+  }
+  #skills .skill p, #services .skill p, #services .service p {
+    font-size: 28px;
+  }
+  #skills .skill i, #services .skill i, #services .service i {
+    font-size: 120px;
+  }
+  #services .service i {
+    font-size: 100px;
+  }
+  #projects h4, #projects p {
+    font-size: 45px;
+    margin: 20px auto;
+  }
+  #projects p {
+    font-size: 30px;
+  }
+  #projects .techs {
+    padding: 12px;
+  }
+  #contact h4 {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  #contact p {
+    font-size: 25px;
+  }
+  #contact #left, #contact #right {
+    width: 40%;
+  }
+  #contact form {
+    margin: 40px 0px;
+  }
+  #contact form input, #contact form textarea {
+    height: 35px;
+    font-size: 28px;
+    margin: 8px;
+    padding: 8px;
+  }
+  #contact form textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+  }
+  #contact form #subm {
+    width: 30%;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  nav {
+    margin: 25px auto;
+  }
+  nav ul li {
+    margin: 20px;
+    font-size: 23px;
+  }
+  #author_card img {
+    width: 270px;
+  }
+  #author_card #bg-text h1 {
+    font-size: 30px;
+  }
+  #author_card #bg-text h2 {
+    font-size: 25px;
+  }
+  #author_card #bg-text h1, #author_card #bg-text h2 {
+    margin: 20px;
+  }
+  .parthead {
+    font-size: 38px;
+  }
+  .mainpart {
+    margin: 20px 0px;
+  }
+  #skills .skill, #services .skill, #services .service {
+    margin: 15px;
+    width: 40%;
+  }
+  #skills .skill h4, #services .skill h4, #services .service h4 {
+    font-size: 35px;
+    margin: 5px;
+  }
+  #skills .skill p, #services .skill p, #services .service p {
+    font-size: 20px;
+  }
+  #skills .skill i, #services .skill i, #services .service i {
+    font-size: 100px;
+  }
+  #services .service i {
+    font-size: 80px;
+  }
+  #projects h4, #projects p {
+    font-size: 35px;
+    margin: 15px auto;
+  }
+  #projects p {
+    font-size: 25px;
+  }
+  #projects .techs {
+    padding: 8px;
+  }
+  #contact h4 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #contact p {
+    font-size: 18px;
+  }
+  #contact #left, #contact #right {
+    width: 41%;
+  }
+  #contact form {
+    margin: 20px 0px;
+  }
+  #contact form input, #contact form textarea {
+    height: 20px;
+    font-size: 21px;
+    margin: 8px;
+    padding: 8px;
+  }
+  #contact form textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+  }
+  #contact form #subm {
+    width: 30%;
+  }
+  footer {
+    font-size: 17px;
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  nav {
+    border-width: 3.5px;
+    margin: 20px auto;
+    width: 75%;
+  }
+  nav ul li {
+    margin: 14px;
+    font-size: 20px;
+  }
+  #arrow i {
+    bottom: 4vw;
+    right: 4vw;
+  }
+  #author_card img {
+    width: 200px;
+  }
+  #author_card #bg-text {
+    width: 80%;
+  }
+  #author_card #bg-text h1 {
+    font-size: 26px;
+  }
+  #author_card #bg-text h2 {
+    font-size: 20px;
+  }
+  #author_card #bg-text h1, #author_card #bg-text h2 {
+    margin: 14px;
+  }
+  .part {
+    width: 75%;
+    margin: 0px auto;
+  }
+  .parthead {
+    font-size: 30px;
+  }
+  #skills .skill, #services .skill, #services .service {
+    margin: 15px;
+    width: 40%;
+  }
+  #skills .skill h4, #services .skill h4, #services .service h4 {
+    font-size: 28px;
+    margin: 2px;
+  }
+  #skills .skill p, #services .skill p, #services .service p {
+    font-size: 18px;
+    margin: 15px;
+  }
+  #skills .skill i, #services .skill i, #services .service i {
+    font-size: 75px;
+  }
+  #services .service i {
+    font-size: 60px;
+  }
+  #projects h4, #projects p {
+    font-size: 28px;
+    margin: 15px auto;
+  }
+  #projects p {
+    font-size: 23px;
+  }
+  #projects .techs {
+    padding: 7px;
+  }
+  #contact h4 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #contact p {
+    font-size: 15px;
+  }
+  #contact #left, #contact #right {
+    width: 40%;
+  }
+  #contact form {
+    margin: 20px 0px;
+  }
+  #contact form input, #contact form textarea {
+    height: 20px;
+    font-size: 21px;
+    margin: 8px;
+    padding: 8px;
+  }
+  #contact form textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+  }
+  #contact form #subm {
+    width: 30%;
+  }
+  footer {
+    font-size: 14px;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  nav {
+    width: 40%;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul li {
+    margin: 15px;
+    font-size: 22px;
+  }
+  #arrow i {
+    bottom: 3vw;
+    right: 3vw;
+  }
+  #author_card {
+    margin: 50px auto;
+  }
+  #author_card img {
+    width: 180px;
+  }
+  #author_card #bg-text {
+    width: 90%;
+  }
+  #author_card #bg-text h1 {
+    font-size: 22px;
+  }
+  #author_card #bg-text h2 {
+    font-size: 19px;
+  }
+  .part {
+    width: 75%;
+  }
+  #changedir {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #changedir #changedir01 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .part {
+    width: 80%;
+  }
+  .parthead {
+    font-size: 28px;
+  }
+  #skills .skill, #services .skill, #services .service {
+    margin: 13px;
+    width: 100%;
+  }
+  #skills .skill h4, #services .skill h4, #services .service h4 {
+    font-size: 26px;
+    margin: 1px;
+  }
+  #skills .skill p, #services .skill p, #services .service p {
+    font-size: 17px;
+    margin: 12px;
+  }
+  #skills .skill i, #services .skill i, #services .service i {
+    font-size: 70px;
+  }
+  #services .service i {
+    font-size: 50px;
+  }
+  #projects h4, #projects p {
+    font-size: 28px;
+    margin: 15px auto;
+  }
+  #projects p {
+    font-size: 23px;
+  }
+  #projects .techs {
+    padding: 7px;
+  }
+  #contact h4 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  #contact p {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  #contact .typeofinfo {
+    margin-left: 0px;
+  }
+  #contact #left, #contact #right {
+    width: 100%;
+  }
+  #contact #contcont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact form input, #contact form textarea {
+    width: 90%;
+    height: 18px;
+    font-size: 18px;
+    margin: 8px;
+    padding: 5px;
+  }
+  #contact form textarea {
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+  }
+  #contact form #subm {
+    width: 50%;
+  }
+  footer {
+    font-size: 10px;
+    padding: 4px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

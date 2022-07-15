@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="assets/img/blog-solid.svg"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <title>Portfolio | Aleksandar Jovanović</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div id="arrow">
+        <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+    <div id="changedir">
+        <div id="changedir01">
+            <nav>
+                <ul>
+                    <a href="#ski"><li>Skills</li></a>
+                    <a href="#serv"><li>Services</li></a>
+                    <a href="#proj"><li>Projects</li></a>
+                    <a href="#contact"><li>About me</li></a>
+                    <a href="#cont"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="part" id="changedir02">
+            <div id="author_card">
+                <img src="assets/img/author_photo.jpg" alt="author_photo"/>
+                <div id="bg-text">
+                    <h1>Aleksandar Jovanović</h1>
+                    <h2>Web Designer</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="mainpart">
+        <h2 class="parthead" id="ski">Skills</h2>
+        <div class="part" id="skills">
+            <div class="skill" id="html5">
+                <i class="fab fa-html5"></i>
+                <h4>HTML5</h4>
+                <p>It is a version of Hypertext Markup Language, the code that describes web pages. HTML5 is the fifth version of HTML.</p>
+            </div>
+            <div class="skill" id="css3">
+                <i class="fab fa-css3-alt"></i>
+                <h4>CSS3</h4>
+                <p>Cascading Style Sheet is used for styling HTML elements. CSS3 is the latest version of CSS and supports responsive design.</p>
+            </div>
+            <div class="skill" id="javascript">
+                <i class="fab fa-node-js"></i>
+                <h4>JavaScript</h4>
+                <p>It is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.</p>
+            </div>
+            <div class="skill" id="react">
+                <i class="fab fa-react"></i>
+                <h4>React</h4>
+                <p>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="mainpart">
+        <h2 class="parthead" id="serv">Services</h2>
+        <div class="part" id="services">
+            <div class="service">
+                <i class="fa fa-paint-brush"></i>
+                <h4>WEB design</h4>
+                <p>Able to create both static or dynamic, responsive websites.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-search"></i>
+                <h4>SEO Optimization</h4>
+                <p>I will make sure Your website is one of the top results in searches.</p>
+            </div>
+            <div class="service">
+                <i class="fa fa-database"></i>
+                <h4>Database Programming</h4>
+                <p>Able to create and maintain effective and efficient databases.</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="mainpart">
+        <h2 class="parthead" id="proj">Projects</h2>
+        <div class="part" id="projects">
+            <div class="project">
+                <h4>D&D Store Website</h4>
+                <img src="assets/img/D&D Store Website.png" alt="D&D_Store_Website"/>
+                <p>Technologies used:</p>
+                <p><span class="techs">HTML5 & CSS3</span></p>
+                <p class="ita">Static Non-responsive Website</p>
+            </div>
+            <div class="project">
+                <h4>Portfolio</h4>
+                <img src="assets/img/Portfolio Website.png" alt="Portfolio_Website"/>
+                <p>Technologies used:</p>
+                <p><span class="techs"> HTML & CSS3 & SASS</span></p>
+                <p class="ita">Static Responsive Website</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="mainpart">
+        <h2 class="parthead">Contact</h2>
+        <div class="part" id="contact">
+            <h4>Personal details:</h4>
+            <div id="contcont">
+                <div id="left">
+                    <p class="typeofinfo">Name:</p><p>Aleksandar Jovanović</p>
+                    <p class="typeofinfo">Address:</p><p>Zdravka Čelara 16, Belgrade</p>
+                    <p class="typeofinfo">Phone Number:</p><p>+381 65 8005543</p>
+                    <p class="typeofinfo">E-mail:</p><p>aleksandar.jovanovic.104.21@ict.edu.rs</p>
+                    
+                </div>
+                <div id="right">
+                    <p class="typeofinfo">Education:</p><p>ICT College of Vocational Studies</p>
+                    <p class="typeofinfo">Experience:</p><p>Two years of website development</p>
+                    <p class="typeofinfo">Residence:</p><p>Belgrade</p>
+                    <p class="typeofinfo">Languages:</p><p>English, Serbian and German</p>
+                </div>
+            </div>
+            <h4 id="cont">Feel free to contact me</h4>
+            <form action="#" method="post" id="message_form" name="message_me">
+                <input type="text" id="name" name="name" placeholder="Your Full Name">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <textarea id="message" name="message" placeholder="Message"></textarea>
+                <input type="submit" id="subm" name="subm" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Aleksandar Jovanović | Visoka ICT Škola &copy; 2022</p>
+        <div id="social">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></i></a>
+        </div>
+        <div>
+            <a href="sitemap.xml" target="_blank"><i class="fas fa-sitemap"></i></a>
+            <a href="assets/css/style.scss" target="_blank"><i class="fab fa-sass"></i></a>
+            <a href="assets/css/style.css" target="_blank"><i class="fab fa-css3-alt"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

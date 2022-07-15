@@ -1,0 +1,454 @@
+@media screen and (max-width: 1921px) {
+    nav {
+        ul {
+            li {
+                margin: 20px;
+                font-size: 35px;
+            }
+        }
+        border-width: 5px;        
+    }
+    
+    hr {
+        margin: 30px auto;}
+    #author_card {
+        img {
+            width: 370px;
+        }
+        #bg-text {
+            h1 {
+                font-size: 45px;
+            }
+            h2 {
+                font-size: 35px;
+            }
+            h1, h2 {
+                margin: 30px;
+            }
+        }
+    }
+    .parthead {
+        font-size: 50px;
+    }
+    .mainpart {
+        margin: 25px 0px;
+    }
+    #skills {
+        .skill {
+            margin: 20px;
+            width: 40%;
+            h4 {
+                font-size: 40px;
+                margin: 10px;
+            }
+            p {
+                font-size: 28px;
+            }
+            i {
+                font-size: 120px;
+            }
+        }
+    }
+    #services {
+        @extend #skills;
+        .service {
+            @extend .skill;
+            i {
+                font-size: 100px;
+            }
+        }
+    }
+    #projects {
+        h4, p {
+            font-size: 45px;
+            margin: 20px auto;
+        }
+        p {
+            font-size: 30px;
+        }
+        .techs {
+            padding: 12px;
+        }
+    }
+    #contact {
+        h4 {
+            font-size: 45px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 25px;
+        }
+        #left, #right {
+            width: 40%;
+        }
+        form {
+            margin: 40px 0px;
+            input, textarea {
+                height: 35px;
+                font-size: 28px;
+                margin: 8px;
+                padding: 8px;
+            }
+            textarea {
+                font-family: 'Roboto', sans-serif;
+                height: 5em; 
+            }
+            #subm {
+                width: 30%;
+            }
+        }
+    }
+    footer {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    nav {
+        ul {
+            li {
+                margin: 20px;
+                font-size: 23px;
+            }
+        }
+        margin: 25px auto;
+    }
+    #author_card {
+        img {
+            width: 270px;
+        }
+        #bg-text {
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 25px;
+            }
+            h1, h2 {
+                margin: 20px;
+            }
+        }
+    }
+    .parthead {
+        font-size: 38px;
+    }
+    .mainpart {
+        margin: 20px 0px;
+    }
+    #skills {
+        .skill {
+            margin: 15px;
+            width: 40%;
+            h4 {
+                font-size: 35px;
+                margin: 5px;
+            }
+            p {
+                font-size: 20px;
+            }
+            i {
+                font-size: 100px;
+            }
+        }
+    }
+    #services {
+        @extend #skills;
+        .service {
+            @extend .skill;
+            i {
+                font-size: 80px;
+            }
+        }
+    }
+    #projects {
+        h4, p {
+            font-size: 35px;
+            margin: 15px auto;
+        }
+        p {
+            font-size: 25px;
+        }
+        .techs {
+            padding: 8px;
+        }
+    }
+    #contact {
+        h4 {
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+        }
+        #left, #right {
+            width: 41%;
+        }
+        form {
+            margin: 20px 0px;
+            input, textarea {
+                height: 20px;
+                font-size: 21px;
+                margin: 8px;
+                padding: 8px;
+            }
+            textarea {
+                font-family: 'Roboto', sans-serif; 
+                height: 5em;
+            }
+            #subm {
+                width: 30%;
+            }
+        }
+    }
+    footer {
+        font-size: 17px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    nav {
+        ul {
+            li {
+                margin: 14px;
+                font-size: 20px;
+            }
+        }
+        border-width: 3.5px;
+        margin: 20px auto;
+        width: 75%;
+    }
+    #arrow {
+        i {
+            bottom: 4vw;
+            right: 4vw;
+        }
+    }
+    #author_card {
+        img {
+            width: 200px;
+        }
+        #bg-text {
+            width: 80%;
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h1, h2 {
+                margin: 14px;
+            }
+        }
+    }
+    .part {
+        width: 75%;
+        margin: 0px auto;
+    }
+    .parthead {
+        font-size: 30px;
+    }
+    #skills {
+        .skill {
+            margin: 15px;
+            width: 40%;
+            h4 {
+                font-size: 28px;
+                margin: 2px;
+            }
+            p {
+                font-size: 18px;
+                margin: 15px;
+            }
+            i {
+                font-size: 75px;
+            }
+        }
+    }
+    #services {
+        @extend #skills;
+        .service {
+            @extend .skill;
+            i {
+                font-size: 60px;
+            }
+        }
+    }
+    #projects {
+        h4, p {
+            font-size: 28px;
+            margin: 15px auto;
+        }
+        p {
+            font-size: 23px;
+        }
+        .techs {
+            padding: 7px;
+        }
+    }
+    #contact {
+        h4 {
+            font-size: 28px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 15px;
+        }
+        #left, #right {
+            width: 40%;
+        }
+        form {
+            margin: 20px 0px;
+            input, textarea {
+                height: 20px;
+                font-size: 21px;
+                margin: 8px;
+                padding: 8px;
+            }
+            textarea {
+                font-family: 'Roboto', sans-serif;
+                height: 5em; 
+            }
+            #subm {
+                width: 30%;
+            }
+        }
+    }
+    footer {
+        font-size: 14px;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    nav {
+        ul {
+            flex-direction: column;
+            li {
+                margin: 15px;
+                font-size: 22px;
+            }
+        }
+        width: 40%;
+    }
+    #arrow {
+        i {
+            bottom: 3vw;
+            right: 3vw;
+        }
+    }
+    #author_card {
+        margin: 50px auto;
+        img {
+            width: 180px;
+        }
+        #bg-text {
+            width: 90%;
+            h1 {
+                font-size: 22px;
+            }
+            h2 {
+                font-size: 19px;
+            }
+        }
+    }
+    .part {
+        width: 75%;
+    }
+    #changedir {
+        display: flex; 
+        flex-flow: column;
+        #changedir01 {
+            order: 2;
+        }
+    }
+    .part {
+        width: 80%;
+    }
+    .parthead {
+        font-size: 28px;
+    }
+    #skills {
+        .skill {
+            margin: 13px;
+            width: 100%;
+            h4 {
+                font-size: 26px;
+                margin: 1px;
+            }
+            p {
+                font-size: 17px;
+                margin: 12px;
+            }
+            i {
+                font-size: 70px;
+            }
+        }
+    }
+    #services {
+        @extend #skills;
+        .service {
+            @extend .skill;
+            i {
+                font-size: 50px;
+            }
+        }
+    }
+    #projects {
+        h4, p {
+            font-size: 28px;
+            margin: 15px auto;
+        }
+        p {
+            font-size: 23px;
+        }
+        .techs {
+            padding: 7px;
+        }
+    }
+    #contact {
+        h4 {
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        .typeofinfo {
+            margin-left: 0px;
+        }
+        #left, #right {
+            width: 100%;
+        }
+        #contcont {
+            display: flex;
+            flex-direction: column;
+        }
+        form {
+            input, textarea {
+                width: 90%;
+                height: 18px;
+                font-size: 18px;
+                margin: 8px;
+                padding: 5px;
+            }
+            textarea {
+                font-family: 'Roboto', sans-serif; 
+                height: 5em;
+            }
+            #subm {
+                width: 50%;
+            }
+        }
+    }
+    footer {
+        font-size: 10px;
+        padding: 4px;
+    }
+}
